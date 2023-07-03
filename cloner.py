@@ -76,7 +76,10 @@ Help: python clones.py [[-h] [-vl url] [-vm url]]
     -vl url  : Clone vless proxy
     -vm url  : Clone vmess proxy
 """
+     vless cloner: python cloner.py -vl vless://....
+     vmess cloner: python cloner.py -vm vmess://....
 
+note: put URL inside "" (string)
 
 # Run the program
 if __name__ == "__main__":
