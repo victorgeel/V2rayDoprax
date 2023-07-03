@@ -30,7 +30,7 @@ def check_worker(worker: str) -> None:
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         if sys.argv[1] == "-h":
-            print("Help: python check_worker https://example.workers.dev")
+            print("Help: python check_worker https://workers-todo-snowy-breeze-0c41.victorisgeek.workers.dev/")
             sys.exit()
         check_worker(sys.argv[1])
         sys.exit()
