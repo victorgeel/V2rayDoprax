@@ -46,7 +46,11 @@ if __name__ == "__main__":
         if sys.argv[1] in ["-h", "--help"]:
             print(
                 """
-Help: python getScript.py [arguments]
+Help: python getIP.py [arguments]
+
+    for only get IPs -> python getIP.py
+    for save the IPs -> python getIP.py -s
+    for help message -> python getIp.py [-h, --help] 
 
     create Script -> python getScript.py [Doprax url without 'https://' and '/' at the end]
     example: 
